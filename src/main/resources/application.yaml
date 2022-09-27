@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:sqlite:/app/pushbot/pushbot.db
+    url: jdbc:sqlite:C:/sqlite/pushbot.db
     driver-class-name: org.sqlite.JDBC
   jpa:
     database-platform: com.pupilcc.pushbot.config.SQLiteDialect
@@ -22,9 +22,9 @@ management:
 
 bot:
   # BotToken 123456:xxxxxxx
-  token:
+  token: 5550692155:AAFDoBiSjUPYq8QmeSeQqVTf8tESc-_WpBg
   # 域名 https://pushbot.example.com
-  domain:
+  domain: https://push.win.ubot.ga
   # 用户发送 /start 时返回的内容，
   # 使用 Markdown 语法
   # %s 表示用户唯一URL
